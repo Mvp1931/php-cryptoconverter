@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="./style/index.css"
+        />
+        <title>Cryptomasters</title>
+    </head>
+    <body>
+        <h1>Cryptomasters</h1>
+
+        <p>Enter the amount of Cryptocurrency you want to buy</p>
+        <form
+            action="convert.php"
+            method="post"
+            id="main-form"
+        >
+            <label for="amount">Amount </label>
+            <input
+                type="number"
+                id="amount"
+                name="amount"
+                placeholder="Enter Amount..."
+            />
+            <label for="crypto">Cryptocurrency </label>
+            <select
+                id="crypto"
+                name="crypto"
+            >
+                <option value="">Select Cryptocurrency</option>
+                <option value="BTC">Bitcoin</option>
+                <option value="ETH">Ethereum</option>
+                <option value="LTC">Litecoin</option>
+                <option value="SOL">Solana</option>
+                <option value="QNT">Quant</option>
+            </select>
+            <label for="currency">Currency </label>
+            <select
+                name="currency"
+                id="currency"
+            >
+                <option value="">Select Currency</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+            </select>
+            <button type="submit">Convert</button>
+        </form>
+    </body>
+</html>

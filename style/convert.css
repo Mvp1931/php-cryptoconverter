@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    max-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #021313;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    margin: 75px 15px;
+}
+
+p {
+    color: #8648c5;
+    font-size: 18px;
+    margin: 0 0 85px 0;
+}
+
+span {
+    color: #05caca;
+}
+
+h5 {
+    color: #eea264;
+    font-size: 20px;
+}
